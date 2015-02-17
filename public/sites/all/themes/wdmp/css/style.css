@@ -9,12 +9,31 @@
 .navbar-btn {
 		margin:0;
 	}
+	
+.logo img {
+	width:90px;
+	height:auto;
+	margin:5px 0;
+}
 .main-container {
 	margin-top: 100px;
 }
 
 .jumbotron {
+	background: none;
 	padding:0;
+}
+
+.img-responsive img {
+	width:100%;
+	height:auto;
+}
+
+.digital-header {
+	background: grey;
+	padding:20px 0;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 #product-wrapper {
