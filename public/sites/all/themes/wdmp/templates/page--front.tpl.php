@@ -113,15 +113,16 @@
   </div>
 </header>
 
-<div class="container-fluid jumbotron">
-	<div class="row">
-		<section class="col-xs-12">
-	<?php if (!empty($page['jumbotron'])): ?>
-	        <?php print render($page['jumbotron']); ?>
-	<?php endif; ?>
-		</section>
+<?php if (!empty($page['jumbotron'])): ?>
+	<div class="container-fluid jumbotron">
+		<div class="row">
+			<section class="col-xs-12">
+		        <?php print render($page['jumbotron']); ?>
+		
+			</section>
+		</div>
 	</div>
-</div>
+<?php endif; ?>
 
 <div class="main-container container">
 
@@ -149,17 +150,19 @@
 	</div>
 </div>
 
+<?php if (!empty($page['products'])): ?>
 <div id="product-wrapper">
 	<div class="container">
 		<div class="row">
 			<section class="col-xs-12">
-		<?php if (!empty($page['products'])): ?>
+		
 		        <?php print render($page['products']); ?>
-		<?php endif; ?>
+		
 			</section>
 		</div>
 	</div>
 </div>
+<?php endif; ?>
 
 <div class="container">
 		<div class="row">
