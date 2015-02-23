@@ -73,12 +73,12 @@
  * @ingroup themeable
  */
 ?>
-<section class="page_top">
-<?php if (!empty($page['page_top'])): ?>
+<section class="social_top">
+<?php if (!empty($page['social_top'])): ?>
 	<div class="container-fluid">
 		<div class="row">
 			<section class="col-xs-3 col-xs-offset-9">
-		        <?php print render($page['page_top']); ?>
+		        <?php print render($page['social_top']); ?>
 			</section>
 		</div>
 	</div>
@@ -173,19 +173,24 @@
 	</div>
 </div>
 
-<?php if (!empty($page['products'])): ?>
 <div id="product-wrapper">
 	<div class="container">
 		<div class="row">
-			<section class="col-xs-12">
-		
-		        <?php print render($page['products']); ?>
-		
-			</section>
+			<div class="col-xs-12 col-sm-6 product-block">
+	        	<?php print render($page['product_1']); ?>
+			</div>
+			<div class="col-xs-12 col-sm-6 product-block">
+	        	<?php print render($page['product_2']); ?>
+			</div>
+			<div class="col-xs-12 col-sm-6 product-block">
+	        	<?php print render($page['product_3']); ?>
+			</div>
+			<div class="col-xs-12 col-sm-6 product-block">
+	        	<?php print render($page['product_4']); ?>
+			</div>
 		</div>
 	</div>
 </div>
-<?php endif; ?>
 
 <div class="container">
 		<div class="row">
