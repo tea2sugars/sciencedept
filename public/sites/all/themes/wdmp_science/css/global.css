@@ -11,5 +11,39 @@ body, h1, h2, h3, h4, h5, h6, p {font-family: verdana, arial, sans-serif;}
 	border-top:1px solid grey;
 	border-bottom:1px solid grey;
 	padding:10px 0;
+	position: relative;
+	top:-100px;
+	text-align: right;
+}
 
+#zone-branding {
+	position: relative;
+	top:-20px;
+	left:0;
+	z-index: 1000;
+}
+
+#zone-branding .logo-img {
+	border: 10px solid white;
+	width:120px;
+	height:120px;
+}
+
+#zone-branding .logo-img img {
+	width:100%;
+	height:auto;
+}
+
+.hidden {display: none;}
+.pull-left {float:left;}
+.pull-right {float:right;}
+
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
 }
