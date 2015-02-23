@@ -73,62 +73,65 @@
  * @ingroup themeable
  */
 ?>
-<section class="social_top">
-<?php if (!empty($page['social_top'])): ?>
-	<div class="container-fluid">
-		<div class="row">
-			<section class="col-xs-3 col-xs-offset-9">
-		        <?php print render($page['social_top']); ?>
-			</section>
+<div class="container-fluid">
+			<div class="row">
+					
+						<?php if (!empty($page['social_top'])): ?>
+							<?php print render($page['social_top']); ?>
+						<?php endif; ?>	
+			</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
+		  
+			  
+			    <div class="navbar-header">
+			      <?php if ($logo): ?>
+			      <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+			        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+			      </a>
+			      <?php endif; ?>
+			
+			      <?php if (!empty($site_name)): ?>
+			      <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+			      <?php endif; ?>
+			
+			      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+			
+			    <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+			      <div class="navbar-collapse collapse">
+			        <nav role="navigation">
+			          <?php if (!empty($primary_nav)): ?>
+			            <?php print render($primary_nav); ?>
+			          <?php endif; ?>
+			          <?php if (!empty($secondary_nav)): ?>
+			            <?php print render($secondary_nav); ?>
+			          <?php endif; ?>
+			          <?php if (!empty($page['navigation'])): ?>
+			            <?php print render($page['navigation']); ?>
+			          <?php endif; ?>
+			        </nav>
+			      </div>
+				  <?php endif; ?>
+			</header>
 		</div>
 	</div>
-<?php endif; ?>	
-</section>
-
-<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-  <div class="container">
-    <div class="navbar-header">
-      <?php if ($logo): ?>
-      <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-      </a>
-      <?php endif; ?>
-
-      <?php if (!empty($site_name)): ?>
-      <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-      <?php endif; ?>
-
-      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-
-    <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-      <div class="navbar-collapse collapse">
-        <nav role="navigation">
-          <?php if (!empty($primary_nav)): ?>
-            <?php print render($primary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($secondary_nav)): ?>
-            <?php print render($secondary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($page['navigation'])): ?>
-            <?php print render($page['navigation']); ?>
-          <?php endif; ?>
-        </nav>
-      </div>
-    <?php endif; ?>
-  </div>
-</header>
+</div>
 
 <?php if (!empty($page['jumbotron'])): ?>
-	<div class="container-fluid jumbotron">
+	<div class="container-fluid">
 		<div class="row">
-			<section class="col-xs-12">
+			<section class="jumbotron col-sm-12">
 		        <?php print render($page['jumbotron']); ?>
 		
 			</section>
@@ -137,64 +140,62 @@
 <?php endif; ?>
 
 <?php if (!empty($page['intro'])): ?>
-	<div class="container-fluid" id="introduction">
-		<div class="row">
-			<section class="col-xs-12">
-		        <?php print render($page['intro']); ?>
-		
-			</section>
-		</div>
+	<div class="container-fluid">
+			<div class="row">
+				<div id="introduction">
+					<?php print render($page['intro']); ?>
+				</div>
+			</div>
 	</div>
 <?php endif; ?>
 
 <div class="main-container container">
-
   	<div class="row">
-	    <section<?php print $content_column_class; ?>>
-	      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
-	      <a id="main-content"></a>
-	      <?php print render($title_prefix); ?>
-	      <?php if (!empty($title)): ?>
-	        <h1 class="page-header hidden"><?php print $title; ?></h1>
-	      <?php endif; ?>
-	      <?php print render($title_suffix); ?>
-	      <?php print $messages; ?>
-	      <?php if (!empty($tabs)): ?>
-	        <?php print render($tabs); ?>
-	      <?php endif; ?>
-	      <?php if (!empty($page['help'])): ?>
-	        <?php print render($page['help']); ?>
-	      <?php endif; ?>
-	      <?php if (!empty($action_links)): ?>
-	        <ul class="action-links"><?php print render($action_links); ?></ul>
-	      <?php endif; ?>
-	      <?php print render($page['content']); ?>
-	    </section>
+	  	<div class="col-sm-12">
+		    <section<?php print $content_column_class; ?>>
+		      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
+		      <a id="main-content"></a>
+		      <?php print render($title_prefix); ?>
+		      <?php if (!empty($title)): ?>
+		        <h1 class="page-header"><?php print $title; ?></h1>
+		      <?php endif; ?>
+		      <?php print render($title_suffix); ?>
+		      <?php print $messages; ?>
+		      <?php if (!empty($tabs)): ?>
+		        <?php print render($tabs); ?>
+		      <?php endif; ?>
+		      <?php if (!empty($page['help'])): ?>
+		        <?php print render($page['help']); ?>
+		      <?php endif; ?>
+		      <?php if (!empty($action_links)): ?>
+		        <ul class="action-links"><?php print render($action_links); ?></ul>
+		      <?php endif; ?>
+		      <?php print render($page['content']); ?>
+		    </section>
+	  	</div>
 	</div>
 </div>
 
-<div id="product-wrapper">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 product-block">
-	        	<?php print render($page['product_1']); ?>
+<section id="products">
+				<div class="col-xs-12 col-sm-6 product-block">
+		        	<?php print render($page['product_1']); ?>
+				</div>
+				<div class="col-xs-12 col-sm-6 product-block">
+		        	<?php print render($page['product_2']); ?>
+				</div>
+				<div class="col-xs-12 col-sm-6 product-block">
+		        	<?php print render($page['product_3']); ?>
+				</div>
+				<div class="col-xs-12 col-sm-6 product-block">
+		        	<?php print render($page['product_4']); ?>
+				</div>
 			</div>
-			<div class="col-xs-12 col-sm-6 product-block">
-	        	<?php print render($page['product_2']); ?>
-			</div>
-			<div class="col-xs-12 col-sm-6 product-block">
-	        	<?php print render($page['product_3']); ?>
-			</div>
-			<div class="col-xs-12 col-sm-6 product-block">
-	        	<?php print render($page['product_4']); ?>
-			</div>
-		</div>
 	</div>
-</div>
+</section>
 
 <div class="container">
 		<div class="row">
-			<section class="col-xs-12">
+			<section class="col-sm-12">
 		<?php if (!empty($page['page_bottom'])): ?>
 		        <?php print render($page['page_bottom']); ?>
 		<?php endif; ?>
@@ -202,6 +203,8 @@
 		</div>
 </div>
 
-<footer class="footer container-fluid">
-  <?php print render($page['footer']); ?>
+
+<footer class="footer">
+	<?php print render($page['footer']); ?>
 </footer>
+

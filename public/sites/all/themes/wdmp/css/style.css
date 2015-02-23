@@ -17,7 +17,8 @@ text-transform: uppercase;
 	color: #F63D00;
 }
 
-.social_top  {background: #00abc2;}
+.region-social-top  {background: #00abc2;}
+.social_top p {margin-right: 15px;}
 
 #navbar {	
 	background:	white;
@@ -101,8 +102,9 @@ float:right;	color:		#00abc2;
 	text-transform: uppercase;
 }
 
-#product-wrapper {
+#products {
 	background:#00abc2;
+	margin:0 -15px;
 }
 
 .product-block {
