@@ -73,6 +73,18 @@
  * @ingroup themeable
  */
 ?>
+<section class="page_top">
+<?php if (!empty($page['page_top'])): ?>
+	<div class="container-fluid">
+		<div class="row">
+			<section class="col-xs-3 col-xs-offset-9">
+		        <?php print render($page['page_top']); ?>
+			</section>
+		</div>
+	</div>
+<?php endif; ?>	
+</section>
+
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="container">
     <div class="navbar-header">
@@ -124,6 +136,17 @@
 	</div>
 <?php endif; ?>
 
+<?php if (!empty($page['intro'])): ?>
+	<div class="container-fluid" id="introduction">
+		<div class="row">
+			<section class="col-xs-12">
+		        <?php print render($page['intro']); ?>
+		
+			</section>
+		</div>
+	</div>
+<?php endif; ?>
+
 <div class="main-container container">
 
   	<div class="row">
@@ -132,7 +155,7 @@
 	      <a id="main-content"></a>
 	      <?php print render($title_prefix); ?>
 	      <?php if (!empty($title)): ?>
-	        <h1 class="page-header"><?php print $title; ?></h1>
+	        <h1 class="page-header hidden"><?php print $title; ?></h1>
 	      <?php endif; ?>
 	      <?php print render($title_suffix); ?>
 	      <?php print $messages; ?>
