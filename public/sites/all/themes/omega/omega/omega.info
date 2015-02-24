@@ -12,7 +12,6 @@ base theme = alpha
 
 regions[page_top] = Page Top
 regions[page_bottom] = Page Bottom
-regions[about] = Ubout Us
 regions[content] = Content
 
 ; END REQUIRED CORE REGIONS
@@ -41,8 +40,8 @@ regions[postscript_fourth] = Postscript Fourth
 regions[footer_first] = Footer First
 regions[footer_second] = Footer Second
 
-regions[about_us] = About Us
-regions[products] = Products
+regions[about] = About
+regions[product] = Product
 
 ; ZONES
 
