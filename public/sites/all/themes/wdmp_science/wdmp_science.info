@@ -24,14 +24,15 @@ regions[postscript_third] = 'Postscript Third'
 regions[postscript_fourth] = 'Postscript Fourth'
 regions[footer_first] = 'Footer First'
 regions[footer_second] = 'Footer Second'
+regions[header_image] = 'Header Image'
+regions[product] = 'Product'
 
-regions[about_first] = 'About Second'
+regions[about_first] = 'About First'
 regions[about_second] = 'About Second'
 zones[header] = 'Header'
-
+zones[header_image] = 'Header Image'
 zones[about] = 'About'
 zones[product] = 'Product'
-
 zones[content] = 'Content'
 zones[footer] = 'Footer'
 zones[user] = 'User'

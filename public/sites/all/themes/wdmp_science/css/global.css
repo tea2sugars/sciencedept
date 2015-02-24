@@ -7,6 +7,10 @@ body, h1, h2, h3, h4, h5, h6, p {font-family: verdana, arial, sans-serif;}
 	background:teal;
 }
 
+#zone-header-image-wrapper {
+	background:url(../img/header-background.jpg) #ebebeb no-repeat center top;
+}
+
 #zone-menu-wrapper {
 	border-top:1px solid grey;
 	border-bottom:1px solid grey;
@@ -14,6 +18,25 @@ body, h1, h2, h3, h4, h5, h6, p {font-family: verdana, arial, sans-serif;}
 	position: relative;
 	top:-100px;
 	text-align: right;
+}
+
+#zone-about-wrapper {
+	background: grey;
+	padding:30px 0;
+}
+
+#zone-product-wrapper {
+	background: teal;
+	padding:30px 0;
+}
+
+#zone-product-wrapper .block {
+	background: white;
+	text-align: center;
+}
+
+.intro-copy-block {
+	background: white;
 }
 
 #zone-branding {
@@ -34,6 +57,8 @@ body, h1, h2, h3, h4, h5, h6, p {font-family: verdana, arial, sans-serif;}
 	height:auto;
 }
 
+.teal {color:teal;}
+
 .hidden {display: none;}
 .pull-left {float:left;}
 .pull-right {float:right;}
@@ -46,4 +71,8 @@ body, h1, h2, h3, h4, h5, h6, p {font-family: verdana, arial, sans-serif;}
 }
 .text-center {
 	text-align: center;
+}
+.bean-anchors p {
+	margin:0;
+	text-indent: -5000px;
 }
