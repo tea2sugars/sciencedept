@@ -6,6 +6,12 @@
 	line-height: 1.11111;
 	margin-bottom: 20px;
 }
+
+h3.lead {
+	font-size: 36px;
+	line-height: 1.111111;
+	margin-bottom: 20px;
+}
  
  #zone-branding .logo-img {
 	border: 10px solid white;

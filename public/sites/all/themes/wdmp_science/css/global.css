@@ -1,8 +1,20 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
-body, h1, h2, h3, h4, h5, h6, p {font-family: verdana, arial, sans-serif;}
+body, h1, h2, h3, h4, h5, h6, p {
+	
+	color: #222222;
+	font-family: verdana, arial, sans-serif;
+	letter-spacing: 0.5px;
+	
+	}
 
 h1 {
+	font-size: 22px;
+	line-height: 1.363636;
+	margin-bottom: 15px;
+}
+
+h3.lead {
 	font-size: 22px;
 	line-height: 1.363636;
 	margin-bottom: 15px;
@@ -53,9 +65,34 @@ header#section-header {
 }
 
 #zone-product-wrapper .block {
-	background: white;
+	background: 		white;
+	margin-bottom: 		20px;
+	text-align: 		center;
+}
+
+#zone-product-wrapper .block p {
+	font-size: 14px;
+	line-height: 1.42857;
+	margin: 0 10px 20px 10px;
+	text-align: left;	
+}
+
+#zone-product-wrapper .block img {
+	margin: 20px 0 10px 0;
+}
+
+#zone-product-wrapper .block .field-name-field-product-name {
+	font-size: 24px;
+	font-weight: bold;
+	margin:0 20px 10px 20px;
+	line-height: 1.25
+}
+
+#zone-product-wrapper .block .field-name-field-sub-title p {
+	font-size:18px;
+	line-height: 1.11111;
+	margin:0 20px 20px 20px;
 	text-align: center;
-	margin-bottom: 20px;
 }
 
 .intro-copy-block {
@@ -90,6 +127,7 @@ header#section-header {
 }
 
 .teal {color:#00ABC2;}
+.orange {color:#F63D00;}
 
 .hidden {display: none;}
 .pull-left {float:left;}
