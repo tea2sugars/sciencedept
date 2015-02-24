@@ -11,11 +11,20 @@ h1 {
 
 #zone-user-wrapper {
 	background:#00ABC2;
+	padding-top: 5px;
+}
+
+#zone-user-wrapper a {
+	color: white;
+	font-size: 22px;
+	line-height: 0;
+	margin:0;
+	
 }
 
 header#section-header {
 	background:#ebebeb;
-	height:100px;
+	height:120px;
 }
 
 #zone-header-image-wrapper {
@@ -38,13 +47,15 @@ header#section-header {
 }
 
 #zone-product-wrapper {
-	background: #00ABC2;
+	background: url(../img/data-background-.jpg) #00ABC2 center bottom no-repeat;
+	background-size: cover;
 	padding:30px 0;
 }
 
 #zone-product-wrapper .block {
 	background: white;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .intro-copy-block {
@@ -67,6 +78,10 @@ header#section-header {
 #zone-branding .logo-img img {
 	width:100%;
 	height:auto;
+}
+
+.front #zone-content-wrapper h1.title {
+	display: none;
 }
 
 .block-lead-header h1 {
