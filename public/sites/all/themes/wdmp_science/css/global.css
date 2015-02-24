@@ -8,6 +8,12 @@ body, h1, h2, h3, h4, h5, h6, p {
 	
 	}
 
+h1, h2, h3 {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+}
+
+
 h1 {
 	font-size: 22px;
 	line-height: 1.363636;
@@ -83,7 +89,8 @@ header#section-header {
 
 #zone-product-wrapper .block .field-name-field-product-name {
 	font-size: 24px;
-	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
 	margin:0 20px 10px 20px;
 	line-height: 1.25
 }
