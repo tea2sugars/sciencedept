@@ -2,8 +2,20 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
+h1 {
+	font-size: 30px;
+	line-height: 1.33333;
+	margin-bottom: 20px;
+}
+
 #zone-branding .logo-img {
 	border: 5px solid white;
 	width:90px;
 	height:90px;
+}
+
+.block-lead-header h1 {
+	float:right;
+	max-width: 60%;
+	text-align: right;
 }

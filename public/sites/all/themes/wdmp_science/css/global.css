@@ -2,6 +2,12 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 body, h1, h2, h3, h4, h5, h6, p {font-family: verdana, arial, sans-serif;}
 
+h1 {
+	font-size: 22px;
+	line-height: 1.363636;
+	margin-bottom: 15px;
+}
+
 
 #zone-user-wrapper {
 	background:#00ABC2;
@@ -14,6 +20,8 @@ header#section-header {
 
 #zone-header-image-wrapper {
 	background:url(../img/header-background.jpg) #ebebeb no-repeat center top;
+	background-size: cover;
+	height: 400px;
 }
 
 #zone-menu-wrapper {
@@ -59,6 +67,11 @@ header#section-header {
 #zone-branding .logo-img img {
 	width:100%;
 	height:auto;
+}
+
+.block-lead-header h1 {
+	font-weight: normal;
+	text-align: left;
 }
 
 .teal {color:#00ABC2;}
