@@ -7,3 +7,7 @@
 .block-lead-header h1 {
 	max-width: 40%;
 }
+
+#zone-header-image-wrapper {
+	height: 650px;
+}
