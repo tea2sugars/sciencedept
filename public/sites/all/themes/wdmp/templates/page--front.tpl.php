@@ -73,7 +73,8 @@
  * @ingroup themeable
  */
 ?>
-<div class="container-fluid">
+<section id="social" class="full-wrapper">
+<div class="container">
 			<div class="row">
 					
 						<?php if (!empty($page['social_top'])): ?>
@@ -81,6 +82,7 @@
 						<?php endif; ?>	
 			</div>
 </div>
+</section>
 
 <div class="container">
 	<div class="row">
@@ -129,7 +131,7 @@
 </div>
 
 <?php if (!empty($page['jumbotron'])): ?>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<section class="jumbotron col-sm-12">
 		        <?php print render($page['jumbotron']); ?>
@@ -140,7 +142,7 @@
 <?php endif; ?>
 
 <?php if (!empty($page['intro'])): ?>
-	<div class="container-fluid">
+	<div class="container">
 			<div class="row">
 				<div id="introduction">
 					<?php print render($page['intro']); ?>
