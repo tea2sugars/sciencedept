@@ -13,6 +13,10 @@
 	height:120px;
 }
 
+#zone-menu-wrapper {
+	top:-105px;
+}
+
 #zone-header-image-wrapper {
 	height: 550px;
 }

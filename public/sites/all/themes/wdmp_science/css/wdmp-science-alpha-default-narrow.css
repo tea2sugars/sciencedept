@@ -14,6 +14,10 @@ h1 {
 	height:90px;
 }
 
+#zone-menu-wrapper {
+	top:-90px;
+}
+
 #zone-header-image-wrapper {
 	height: 450px;
 }
