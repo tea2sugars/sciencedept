@@ -118,12 +118,27 @@ header#section-header {
 #zone-full-width-title-first-wrapper {
 	background:url(../img/data-title-mobile.png) repeat-x;
 }
+#zone-full-width-title-second-wrapper {
+	background:url(../img/data-title-mobile-teal.png) repeat-x;
+}
+
+#zone-full-width-title-third-wrapper {
+	background: url(../img/contact-background-tile.png) repeat-x top;}
 
 .bean-full-width-titles {
 	height:180px;
 }
+
+#zone-full-width-title-third-wrapper .bean-full-width-titles {
+	height:140px;
+}
+
+#zone-full-width-title-third-wrapper .contact-block {
+	margin-top:30px;
+}
+
 .bean-full-width-titles .full-width-title {
-	bottom: 0px;
+	bottom: 5px;
 	color: white;
 	font-size: 24px;
 	font-family: verdana;

@@ -35,6 +35,9 @@ h1 {
 #zone-full-width-title-first-wrapper {
 	background:url(../img/data-title.png) repeat-x;
 }
+#zone-full-width-title-second-wrapper {
+	background:url(../img/data-title-teal.png) repeat-x;
+}
 
 .bean-full-width-titles {
 	height:230px;
