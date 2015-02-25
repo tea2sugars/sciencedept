@@ -21,8 +21,14 @@ h1 {
 }
 
 h3.lead {
-	font-size: 22px;
-	line-height: 1.363636;
+	font-size: 20px;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+
+p.lead {
+	font-size:20px;
+	line-height: 1.5;
 	margin-bottom: 15px;
 }
 
@@ -32,16 +38,16 @@ h3.lead {
 	padding-top: 5px;
 }
 
-#zone-user-wrapper a {
+#zone-user-wrapper a.btn_social {
 	color: white;
-	font-size: 22px;
+	font-size: 26px;
 	line-height: 0;
-	margin:0;
+	margin:0 0 0 10px;
 	
 }
 
 header#section-header {
-	background:#ebebeb;
+	background:white;
 	height:120px;
 }
 
@@ -63,6 +69,8 @@ header#section-header {
 	background: grey;
 	padding:30px 0;
 }
+
+
 
 #zone-product-wrapper {
 	background: url(../img/data-background-.jpg) #00ABC2 center bottom no-repeat;
@@ -102,6 +110,23 @@ header#section-header {
 	text-align: center;
 }
 
+#zone-full-width-title-first-wrapper {
+	background:url(../img/data-title.png) repeat-x;
+}
+
+.bean-full-width-titles {
+	height:230px;
+}
+.full-width-title {
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	margin-bottom: 0;
+	line-height: 1;
+	width:100%;
+}
+
 .intro-copy-block {
 	background: white;
 }
@@ -111,6 +136,11 @@ header#section-header {
 	top:-20px;
 	left:0;
 	z-index: 1000;
+}
+
+#main-menu {
+	z-index: 1001;
+	position: relative;
 }
 
 #zone-branding .logo-img {
@@ -152,4 +182,10 @@ header#section-header {
 .bean-anchors p {
 	margin:0;
 	text-indent: -5000px;
+}
+
+.responsive-img, .bean-image img {height:auto; width: 100%;}
+
+#branding {position: absolute;
+	top:10px;
 }
