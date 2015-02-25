@@ -30,3 +30,7 @@ h3.lead {
 .bean-full-width-titles .full-width-title {
 	font-size: 60px;
 }
+.equal-height li {
+	 
+    width:50%;
+}
