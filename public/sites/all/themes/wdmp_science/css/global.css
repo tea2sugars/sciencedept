@@ -26,6 +26,11 @@ h3.lead {
 	margin-bottom: 10px;
 }
 
+p {
+	font-size: 14px;
+	line-height: 1.4285
+}
+
 p.lead {
 	font-size:20px;
 	line-height: 1.5;
@@ -130,8 +135,33 @@ header#section-header {
 	width:100%;
 }
 
+.block-clients-block ul {
+	list-style: none;
+}
+
+.block-clients-block li {
+	width:45%;
+	float:left;
+}
+
+.block-clients-block li img {
+	width:100%;
+	height:auto;
+}
+
 .intro-copy-block {
 	background: white;
+}
+
+.view-articles .views-row {
+	background:#e4e4e4;
+	margin-bottom: 20px;
+	min-height: 400px;
+}
+
+.view-articles .views-row .field-content { 
+	margin:0 20px;
+	
 }
 
 #zone-branding {
@@ -182,13 +212,13 @@ header#section-header {
 .text-center {
 	text-align: center;
 }
+
+.text-justified {
+	text-align: justify;
+}
 .bean-anchors p {
 	margin:0;
 	text-indent: -5000px;
 }
 
 .responsive-img, .bean-image img {height:auto; width: 100%;}
-
-#branding {position: absolute;
-	top:10px;
-}

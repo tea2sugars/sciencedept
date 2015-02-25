@@ -43,3 +43,16 @@ h1 {
 .bean-full-width-titles .full-width-title {
 	font-size: 50px;
 	}
+
+.block-clients-block {
+	margin:30px 0 90px 0;
+}
+
+.block-clients-block .row-1 {
+	margin-bottom: 20px;
+}
+
+.view-clients img {
+	width:100%;
+	height:auto;
+}
