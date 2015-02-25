@@ -26,3 +26,10 @@ h3.lead {
 #zone-header-image-wrapper {
 	height: 550px;
 }
+
+.bean-full-width-titles .full-width-title {
+	font-size: 60px;
+}
+.bean-full-width-titles {
+	height:230px;
+}

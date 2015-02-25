@@ -111,19 +111,22 @@ header#section-header {
 }
 
 #zone-full-width-title-first-wrapper {
-	background:url(../img/data-title.png) repeat-x;
+	background:url(../img/data-title-mobile.png) repeat-x;
 }
 
 .bean-full-width-titles {
-	height:230px;
+	height:180px;
 }
-.full-width-title {
-	color: white;
-	position: absolute;
+.bean-full-width-titles .full-width-title {
 	bottom: 0px;
-	text-align: center;
-	margin-bottom: 0;
+	color: white;
+	font-size: 24px;
+	font-family: verdana;
 	line-height: 1;
+	position: absolute;
+	margin-bottom: 0;
+	text-align: center;
+	text-transform: lowercase;
 	width:100%;
 }
 

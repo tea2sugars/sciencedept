@@ -31,3 +31,15 @@ h1 {
 #zone-product-wrapper .block p {
 	margin: 0 20px 20px 20px;
 }
+
+#zone-full-width-title-first-wrapper {
+	background:url(../img/data-title.png) repeat-x;
+}
+
+.bean-full-width-titles {
+	height:230px;
+}
+
+.bean-full-width-titles .full-width-title {
+	font-size: 50px;
+	}
