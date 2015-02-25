@@ -134,7 +134,9 @@ header#section-header {
 }
 
 #zone-full-width-title-third-wrapper .contact-block {
-	margin-top:30px;
+	margin-bottom:60px;
+	margin-top:60px;
+	
 }
 
 .bean-full-width-titles .full-width-title {
@@ -243,6 +245,11 @@ header#section-header {
 .section-footer .form-text {
 	width:100%;
 
+}
+
+.region-footer-first {
+	border-bottom: 1px solid white;
+	padding-bottom:30px;
 }
 
 .teal {color:#00ABC2;}
