@@ -1,12 +1,10 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 body, h1, h2, h3, h4, h5, h6, p {
-	
 	color: #222222;
 	font-family: verdana, arial, sans-serif;
 	letter-spacing: 0.5px;
-	
-	}
+}
 
 h1, h2, h3 {
 	font-family: 'PT Sans', sans-serif;
@@ -29,8 +27,7 @@ h3.lead {
 p, label {
 	font-size: 14px;
 	font-weight: normal;
-	line-height: 1.4285;
-	
+	line-height: 1.4285;	
 }
 
 p.lead {
@@ -38,6 +35,17 @@ p.lead {
 	line-height: 1.5;
 	margin-bottom: 15px;
 }
+
+.teal 			{color:#00ABC2;}
+.orange 		{color:#F63D00;}
+.hidden 		{display: none;}
+.pull-left 		{float:left;}
+.pull-right 	{float:right;}
+.small 			{font-size: 11px;}
+.text-left 		{text-align: left;}
+.text-right		{text-align: right;}
+.text-center	{text-align: center;}
+.text-justified {text-align: justify;}
 
 
 #zone-user-wrapper {
@@ -49,8 +57,7 @@ p.lead {
 	color: white;
 	font-size: 26px;
 	line-height: 0;
-	margin:0 0 0 10px;
-	
+	margin:0 0 0 10px;	
 }
 
 header#section-header {
@@ -76,8 +83,6 @@ header#section-header {
 	background: grey;
 	padding:30px 0;
 }
-
-
 
 #zone-product-wrapper {
 	background: url(../img/data-background-.jpg) #00ABC2 center bottom no-repeat;
@@ -254,7 +259,7 @@ header#section-header {
 	padding-bottom:30px;
 }
 
-/*-----FORM-----*/
+/*---------------FORM---------------*/
 .webform-component-checkboxes {
 	overflow: auto;
 }
@@ -295,31 +300,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	background: #F63D00;
 }
+/*---------------END OF FORM---------------*/
 
-.teal {color:#00ABC2;}
-.orange {color:#F63D00;}
-
-.hidden {display: none;}
-.pull-left {float:left;}
-.pull-right {float:right;}
-
-.small {
-	font-size: 11px;
-}
-
-.text-left {
-	text-align: left;
-}
-.text-right {
-	text-align: right;
-}
-.text-center {
-	text-align: center;
-}
-
-.text-justified {
-	text-align: justify;
-}
 .bean-anchors p {
 	margin:0;
 	text-indent: -5000px;
