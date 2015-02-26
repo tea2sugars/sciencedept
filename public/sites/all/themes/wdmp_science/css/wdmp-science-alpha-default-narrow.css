@@ -60,4 +60,13 @@ h1 {
 	height:auto;
 }
 
+.block-webform {
+	width:380px;
+}
+
+.form-type-checkbox {
+	width:50%;
+	float:left;
+}
+
 

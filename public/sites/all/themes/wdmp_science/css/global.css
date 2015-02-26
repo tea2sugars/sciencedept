@@ -1,5 +1,9 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+body {
+	font-size: 14px;
+}
+
 body, h1, h2, h3, h4, h5, h6, p {
 	color: #222222;
 	font-family: verdana, arial, sans-serif;
@@ -260,6 +264,11 @@ header#section-header {
 }
 
 /*---------------FORM---------------*/
+.block-webform {
+	width:100%;
+	margin: 0 auto;
+}
+
 .webform-component-checkboxes {
 	overflow: auto;
 }
@@ -272,10 +281,7 @@ header#section-header {
 	font-size: 14px;
 	font-weight: normal;
 }
-.form-type-checkbox {
-	width:50%;
-	float:left;
-}
+
 
 .webform-component--name {
 	margin-top:10px;
