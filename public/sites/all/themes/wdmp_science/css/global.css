@@ -28,6 +28,8 @@ h3.lead {
 	margin-bottom: 10px;
 }
 
+p {max-width: 700px;}
+
 p, label {
 	font-size: 14px;
 	font-weight: normal;
@@ -224,7 +226,27 @@ header#section-header {
 
 .view-articles .views-row .field-content { 
 	margin:0 20px;
-	
+
+}
+
+.views-field-field-written-by-image {
+	margin-bottom:10px;
+}
+.views-field-field-written-by-image img {
+border:5px solid white;
+}
+
+.field-name-field-quote p {
+	color:#00ABC2;
+	font-style: italic;
+	font-size:16px;
+	line-height: 1.25;
+}
+.field-name-field-quote p:before {
+	  content: "\201C";
+}
+.field-name-field-quote p:after {
+	  content: "\201D";
 }
 
 #zone-branding {
@@ -339,6 +361,10 @@ padding-top: 30px;
 
 .region-footer-second {
 	margin:20px 0;
+}
+
+footer p {
+	max-width: none;
 }
 
 input[type="submit"], #sidr-wrapper-0 button {

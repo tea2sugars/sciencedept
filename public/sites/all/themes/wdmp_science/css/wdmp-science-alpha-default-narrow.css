@@ -86,4 +86,11 @@ padding-top: 0px;
 	float:left;
 }
 
+.node-type-article .field-name-field-written-by-image {
+	width:190px;
+	margin: 0 20px 20px 0;
+	float: left;
+}
+.node-type-article .field-name-field-written-by-image img {
+}
 
