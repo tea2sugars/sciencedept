@@ -15,3 +15,9 @@
 #zone-menu-wrapper {
 	top: -126px;
 }
+
+#main-menu li {
+
+	margin-left:40px;
+	font-size:20px;
+}
