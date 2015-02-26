@@ -267,7 +267,7 @@ border:5px solid white;
 	z-index: 1200;
 }
 
-.sidr.left {
+.sidr.right {
 	background:#00ABC2;
 	width:60%;
 	 -webkit-box-shadow: 	1px 0px 6px 0px rgba(50, 50, 50, 0.53);
@@ -275,11 +275,11 @@ border:5px solid white;
 			 box-shadow:    1px 0px 6px 0px rgba(50, 50, 50, 0.53);;
 }
 
-.sidr.left a {
+.sidr.right a {
 	color: white;
 }
 
-.sidr.left li {
+.sidr.right li {
 	list-style: none;
 	margin:		5px;
 }

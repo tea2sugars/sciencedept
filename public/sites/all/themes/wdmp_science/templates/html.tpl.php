@@ -16,5 +16,17 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
-</body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+	$(document).ready(function(){
+	    $("#sidr-id-hide-menu").click(function(){
+	        $("#sidr-0").hide();
+	    });
+	    $("#sidr-0-button").click(function(){
+	        $("#sidr-0").show();
+	    });
+	});
+	</script>
+	
+  </body>
 </html>
