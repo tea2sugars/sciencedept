@@ -35,9 +35,24 @@ p, label {
 }
 
 p.lead {
-	font-size:20px;
-	line-height: 1.5;
-	margin-bottom: 15px;
+	font-size:16px;
+	line-height: 1.25;
+	margin-bottom: 10px;
+}
+
+a:link, a:visited		{color:#00ABC2; text-decoration: none;}
+a:hover					{color:#F63D00; text-decoration: underline;}
+
+h3 a:link, h3 a:visited {color:#222222;}
+
+a.orange-button {
+	background: #F63D00;
+	color: white;
+	width:100%;
+	margin:10px auto;
+	padding:10px 0;
+	display: block;
+	text-align: center;
 }
 
 .teal 			{color:#00ABC2;}
@@ -145,9 +160,13 @@ header#section-header {
 }
 
 #zone-full-width-title-third-wrapper .contact-block {
-	margin-bottom:60px;
-	margin-top:60px;
-	
+	margin-bottom:20px;
+	margin-top:20px;	
+}
+
+.contact-block h5 {
+	color:#00ABC2;
+	margin-bottom:5px;
 }
 
 .bean-full-width-titles .full-width-title {
@@ -257,6 +276,10 @@ header#section-header {
 
 .front #zone-content-wrapper h1.title {
 	display: none;
+}
+
+#zone-content-wrapper {
+	padding:30px 0;
 }
 
 .block-lead-header h1 {

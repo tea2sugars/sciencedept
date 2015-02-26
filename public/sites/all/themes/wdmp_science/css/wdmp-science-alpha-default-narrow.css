@@ -8,6 +8,12 @@ h1 {
 	margin-bottom: 20px;
 }
 
+p.lead {
+	font-size:20px;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
 #zone-branding .logo-img {
 	border: 5px solid white;
 	width:90px;
@@ -26,6 +32,11 @@ padding-top: 0px;
 
 #zone-header-image-wrapper {
 	height: 450px;
+}
+
+#zone-full-width-title-third-wrapper .contact-block {
+	margin-bottom:60px;
+	margin-top:60px;	
 }
 
 .block-lead-header h1 {
