@@ -13,7 +13,7 @@
     $(menuElement).once('responsive-menus-sidr', function() {
       var $id = 'sidr-' + ind;
       var $wrapper_id = 'sidr-wrapper-' + ind;
-      $(this).before('<div id="' + $wrapper_id + '"><a id="' + $id + '-button" href="#' + $id + '">' + iteration.trigger_txt + '</a></div>');
+      $(this).before('<div id="' + $wrapper_id + '"><button id="' + $id + '-button" href="#' + $id + '">' + iteration.trigger_txt + '</button></div>');
       $('#' + $wrapper_id).hide();
       if ($windowWidth <= $media_size) {
         $('#' + $wrapper_id).show();

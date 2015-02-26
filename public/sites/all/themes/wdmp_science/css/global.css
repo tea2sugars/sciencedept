@@ -220,9 +220,14 @@ header#section-header {
 	position: relative;
 }
 
-.dl-menuwrapper {
-	background: teal;
+#sidr-wrapper-0 {
+	font-size: 20px;
+	position: absolute;
+	right: 10px;
+	z-index: 1200;
 }
+
+
 
 #zone-branding .logo-img {
 	border: 5px solid white;
