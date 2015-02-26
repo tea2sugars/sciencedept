@@ -26,9 +26,11 @@ h3.lead {
 	margin-bottom: 10px;
 }
 
-p {
+p, label {
 	font-size: 14px;
-	line-height: 1.4285
+	font-weight: normal;
+	line-height: 1.4285;
+	
 }
 
 p.lead {
@@ -252,8 +254,46 @@ header#section-header {
 	padding-bottom:30px;
 }
 
+/*-----FORM-----*/
+.webform-component-checkboxes {
+	overflow: auto;
+}
+
+.webform-component-checkboxes label {
+	font-size: 16px;
+	font-weight: bold;
+}
+.form-type-checkbox label {
+	font-size: 14px;
+	font-weight: normal;
+}
+.form-type-checkbox {
+	width:50%;
+	float:left;
+}
+
+.webform-component--name {
+	margin-top:10px;
+}
+
 .region-footer-second {
 	margin:20px 0;
+}
+
+input[type="submit"] {
+	background: #00ABC2;
+	border: none;
+	border-radius: 0;
+	color: white;
+	font-weight: normal;
+	padding:10px 20px;
+	margin: 10px 0;
+	text-transform: uppercase;
+	text-shadow: none;	
+}
+
+input[type="submit"]:hover {
+	background: #F63D00;
 }
 
 .teal {color:#00ABC2;}
