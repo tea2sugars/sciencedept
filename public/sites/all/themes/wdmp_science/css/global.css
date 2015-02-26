@@ -252,12 +252,20 @@ header#section-header {
 	padding-bottom:30px;
 }
 
+.region-footer-second {
+	margin:20px 0;
+}
+
 .teal {color:#00ABC2;}
 .orange {color:#F63D00;}
 
 .hidden {display: none;}
 .pull-left {float:left;}
 .pull-right {float:right;}
+
+.small {
+	font-size: 11px;
+}
 
 .text-left {
 	text-align: left;
