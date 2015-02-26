@@ -423,3 +423,5 @@ input[type="submit"]:hover {
 }
 
 .responsive-img, .bean-image img {height:auto; width: 100%;}
+
+.block-teal-arrow .field-item {width:90px; height:90px; margin:-30px auto 0 auto;}
