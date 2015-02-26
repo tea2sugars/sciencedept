@@ -59,7 +59,7 @@ a.orange-button {
 
 .teal 			{color:#00ABC2;}
 .orange 		{color:#F63D00;}
-.hidden 		{display: none;}
+.hidden, .block-hidden		{display: none;}
 .pull-left 		{float:left;}
 .pull-right 	{float:right;}
 .small 			{font-size: 11px;}
@@ -67,6 +67,22 @@ a.orange-button {
 .text-right		{text-align: right;}
 .text-center	{text-align: center;}
 .text-justified {text-align: justify;}
+
+#main-menu li {
+	list-style: none;
+	display:inline-block;
+	margin-left:20px;
+	font-size:16px;
+}
+#main-menu li.hidden {
+	display: none;
+}
+
+.sidr-inner li {
+	padding:10px 10px;
+	border-bottom:1px solid white;
+	display: block;
+}
 
 
 #zone-user-wrapper {
@@ -101,7 +117,8 @@ header#section-header {
 }
 
 #zone-about-wrapper {
-	background: grey;
+	background: url(../img/peopleincrowd.jpg);
+	background-size: cover;
 	padding:30px 0;
 }
 
@@ -110,6 +127,20 @@ header#section-header {
 	background-size: cover;
 	padding:30px 0;
 }
+
+.intro {
+	width:80%; 
+	margin-left:auto;
+	margin-right:auto;
+	background: white;
+	padding:20px 10%;
+}
+
+.intro-copy-block-1 {
+	margin-bottom: 30px;
+	}
+
+
 
 #zone-product-wrapper .block {
 	background: 		white;
@@ -197,10 +228,6 @@ header#section-header {
 .block-clients-block li img {
 	width:100%;
 	height:auto;
-}
-
-.intro-copy-block {
-	background: white;
 }
 
 .equal-height ul {

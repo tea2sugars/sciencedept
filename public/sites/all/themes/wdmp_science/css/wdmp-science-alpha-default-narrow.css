@@ -26,6 +26,14 @@ p.lead {
 
 }
 
+.intro {
+	width:500px; 
+}
+
+.intro-copy-block-1 {
+	margin-bottom: 300px;
+	}
+
 .region-header-image {
 padding-top: 0px;
 }
