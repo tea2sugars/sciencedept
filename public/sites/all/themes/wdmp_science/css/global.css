@@ -66,7 +66,7 @@ p.lead {
 
 header#section-header {
 	background:white;
-	height:120px;
+	height:105px;
 }
 
 #zone-header-image-wrapper {
@@ -77,7 +77,7 @@ header#section-header {
 
 #zone-menu-wrapper {
 	background: white;
-	padding:10px 0;
+	padding:2px 0;
 	position: relative;
 	top:-85px;
 	text-align: right;
@@ -221,18 +221,33 @@ header#section-header {
 }
 
 #sidr-wrapper-0 {
-	font-size: 20px;
 	position: absolute;
 	right: 10px;
 	z-index: 1200;
 }
 
+.sidr.left {
+	background:#00ABC2;
+	width:60%;
+	 -webkit-box-shadow: 	1px 0px 6px 0px rgba(50, 50, 50, 0.53);
+		-moz-box-shadow:    1px 0px 6px 0px rgba(50, 50, 50, 0.53);
+			 box-shadow:    1px 0px 6px 0px rgba(50, 50, 50, 0.53);;
+}
+
+.sidr.left a {
+	color: white;
+}
+
+.sidr.left li {
+	list-style: none;
+	margin:		5px;
+}
 
 
 #zone-branding .logo-img {
 	border: 5px solid white;
-	width:70px;
-	height:70px;
+	width:80px;
+	height:80px;
 }
 
 #zone-branding .logo-img img {
@@ -247,8 +262,11 @@ header#section-header {
 .block-lead-header h1 {
 	font-weight: normal;
 	text-align: left;
+	
 }
-
+.region-header-image {
+padding-top: 30px;
+}
 .section-footer {
 	background: #333;
 	color:white;
@@ -300,7 +318,7 @@ header#section-header {
 	margin:20px 0;
 }
 
-input[type="submit"] {
+input[type="submit"], #sidr-wrapper-0 button {
 	background: #00ABC2;
 	border: none;
 	border-radius: 0;
@@ -310,6 +328,12 @@ input[type="submit"] {
 	margin: 10px 0;
 	text-transform: uppercase;
 	text-shadow: none;	
+}
+
+#sidr-wrapper-0 button {
+	font-size: 16px;
+	padding:10px 15px;
+	margin:0;
 }
 
 input[type="submit"]:hover {

@@ -16,6 +16,12 @@ h1 {
 
 #zone-menu-wrapper {
 	top:-90px;
+	padding:10px 0;
+
+}
+
+.region-header-image {
+padding-top: 0px;
 }
 
 #zone-header-image-wrapper {
