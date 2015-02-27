@@ -37,3 +37,10 @@ h3.lead {
     width:50%;
 }
 
+#zone-product-wrapper .block .field-name-field-body {
+	min-height:380px;
+}
+
+#zone-product-wrapper .block-bean-product-2 .field-name-field-body {
+		min-height:362px !important;
+}

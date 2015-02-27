@@ -102,3 +102,11 @@ padding-top: 0px;
 .node-type-article .field-name-field-written-by-image img {
 }
 
+#zone-product-wrapper .block .field-name-field-body {
+	min-height:440px;
+}
+
+#zone-product-wrapper .block-bean-product-2 .field-name-field-body {
+		min-height:442px !important;
+}
+
