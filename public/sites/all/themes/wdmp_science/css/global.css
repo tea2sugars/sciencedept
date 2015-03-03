@@ -265,6 +265,10 @@ header#section-header {
 	 padding:20px 0;
 }
 
+.equal-height h3 {
+	margin-bottom: 20px !important;
+}
+
 
 .equal-height .views-row {
 	background:#e4e4e4;
