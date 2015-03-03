@@ -1,15 +1,15 @@
 #purr-container {
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 30%;
+  right: 0px;
   z-index: 1000;
 }
 
 .notice {
   position: relative;
   width: 324px;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .notice .close {
@@ -25,9 +25,9 @@
 
 .notice-body {
   min-height: 50px;
-  padding: 22px 22px 0 22px;
-  background: url(images/purrTop.png) no-repeat left top;
-  color: #f9f9f9;
+  padding: 22px 40px 0 22px;
+  background: black;
+  color: white !important;
 }
 
 .notice-body ul {
@@ -51,11 +51,12 @@
   margin: 5px 0 0 0;
   font-size: 12px;
   line-height: 1.4em;
+  color: white !important;
 }
 
 .notice-bottom {
   height: 22px;
-  background: url(./images/purrBottom.png) no-repeat left top;
+  background: black;
 }
 
 .notice.error,
@@ -66,12 +67,12 @@
 }
 
 .notice.error .notice-body {
-  background: url(./images/purrTop-error.png) no-repeat left top;
+  background: red;
   border: 0;
 }
 
 .notice.error .notice-bottom {
-  background: url(images/purrBottom-error.png) no-repeat left top;
+  background: red;
 }
 
 .notice.warning {
@@ -80,12 +81,12 @@
 }
 
 .notice.warning .notice-body {
-  background: url(./images/purrTop-error.png) no-repeat left top;
+  background: orange;
   border: 0;
 }
 
 .notice.warning .notice-bottom {
-  background: url(./images/purrBottom-error.png) no-repeat left top;
+  background: orange;
 }
 
 .notice li {
@@ -93,7 +94,7 @@
 }
 
 .notice a:link {
-  color: #aaf;
+  color: white;
 }
 
 .notice pre {
