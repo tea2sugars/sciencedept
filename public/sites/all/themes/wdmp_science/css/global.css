@@ -128,10 +128,12 @@ header#section-header {
 }
 
 #zone-about-wrapper {
-	background: url(../img/peopleincrowd.jpg);
-	background-size: cover;
-	background-position: center center;
-	padding:30px 0;
+	background: url(../img/peopleincrowd.jpg) center top;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+	padding:20px 0;
 }
 
 #zone-product-wrapper {
@@ -149,10 +151,10 @@ header#section-header {
 }
 
 .intro-copy-block-1 {
-	margin-bottom: 30px;
+	margin-bottom: 160px;
 	}
 .intro-copy-block h1 {
-	font-size:30px;
+	font-size:20px;
 	line-height: 1;
 }
 
