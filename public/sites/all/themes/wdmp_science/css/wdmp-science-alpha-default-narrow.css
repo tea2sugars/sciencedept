@@ -8,6 +8,15 @@ h1 {
 	margin-bottom: 20px;
 }
 
+.block-lead-header h1 {
+	float:right;
+	max-width: 80%;
+	text-align: right;
+	font-size: 30px;
+	line-height: 1.33333;
+	margin-top: 20px;
+}
+
 p.lead {
 	font-size:20px;
 	line-height: 1.5;
@@ -38,20 +47,20 @@ p.lead {
 padding-top: 0px;
 }
 
-#zone-header-image-wrapper {
-	height: 450px;
+#zone-header-image-wrapper #zone-header-image {
+    min-height: 400px;
 }
+
 
 #zone-full-width-title-third-wrapper .contact-block {
 	margin-bottom:60px;
 	margin-top:60px;	
 }
 
-.block-lead-header h1 {
-	float:right;
-	max-width: 80%;
-	text-align: right;
-}
+
+
+#section-content {margin-top: -90px;}
+
 
 #zone-product-wrapper .block p {
 	margin: 0 20px 20px 20px;

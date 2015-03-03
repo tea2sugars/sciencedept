@@ -99,14 +99,23 @@ a.orange-button {
 
 header#section-header {
 	background:white;
-	height:105px;
+	overflow: hidden;
 }
 
-#zone-header-image-wrapper {
-	background:url(../img/header-background.jpg) #ebebeb no-repeat center top;
-	background-size: cover;
-	height: 350px;
+#zone-header-image-wrapper  {
+	background: #ebebeb;
 }
+
+#zone-header-image-wrapper #zone-header-image {
+	background: url(../img/header-background-lrg.jpg) center top;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    min-height: 350px;
+}
+
+#section-content {margin-top: -60px;}
 
 #zone-menu-wrapper {
 	background: white;
@@ -114,6 +123,8 @@ header#section-header {
 	position: relative;
 	top:-85px;
 	text-align: right;
+	min-height:20px;
+
 }
 
 #zone-about-wrapper {
@@ -341,9 +352,9 @@ border:5px solid white;
 
 .block-lead-header h1 {
 	font-weight: bold;
-	text-align: left;
+	text-align: right;
 	text-transform: uppercase;
-	
+	font-size: 16px;
 }
 .region-header-image {
 padding-top: 30px;

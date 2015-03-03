@@ -7,12 +7,19 @@
 	margin-bottom: 20px;
 }
 
+.block-lead-header h1 {
+	font-size: 36px;
+	line-height: 1.11111;
+	margin-top: 40px;
+}
+
 h3.lead {
 	font-size: 36px;
 	line-height: 1.111111;
 	margin-bottom: 20px;
 }
 
+#section-content {margin-top: -110px;}
 
  
  #zone-branding .logo-img {
@@ -25,8 +32,8 @@ h3.lead {
 	top:-105px;
 }
 
-#zone-header-image-wrapper {
-	height: 550px;
+#zone-header-image-wrapper #zone-header-image {
+    min-height: 500px;
 }
 
 .bean-full-width-titles .full-width-title {
