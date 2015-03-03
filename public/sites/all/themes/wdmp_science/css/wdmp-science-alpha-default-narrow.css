@@ -8,6 +8,11 @@ h1 {
 	margin-bottom: 20px;
 }
 
+h3.lead {
+	font-size: 24px;
+
+}
+
 .block-lead-header h1 {
 	float:right;
 	max-width: 80%;
