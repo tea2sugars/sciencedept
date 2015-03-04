@@ -59,7 +59,7 @@ p.lead {
 		min-height:362px !important;
 }
 
-.circle,  #zone-product-wrapper .block-orange-arrow-1 .content {width:90px; height:90px;}
+.circle,  #zone-product-wrapper .block-orange-arrow-1 .content, .block-bean-teal-arrow .content {width:90px; height:90px;}
 
 
 #zone-product-wrapper .block-orange-arrow-1 .content img {margin:0;}
