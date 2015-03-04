@@ -152,8 +152,8 @@ header#section-header {
 	padding:20px 10%;
 }
 
-.intro-copy-block-1 {
-	margin-bottom: 160px;
+.intro-copy-block {
+	margin-top: 130px;
 	}
 .intro-copy-block h1 {
 	font-size:18px;
@@ -454,4 +454,11 @@ input[type="submit"]:hover {
 
 .block-teal-arrow .field-item {width:90px; height:90px; margin:-30px auto 0 auto;}
 
+/*Circle arrow control*/
 .circle {width:60px; height:60px; margin-left:auto; margin-right:auto;}
+
+/*First Circle*/
+.block-bean-orange-arrow {
+	margin-top: -30px;
+}
+
