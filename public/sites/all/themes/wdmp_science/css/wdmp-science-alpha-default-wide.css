@@ -5,11 +5,16 @@
 }
 
 .block-lead-header h1 {
-	max-width: 40%;
+	max-width: 60%;
+	margin-top: 60px;
 }
 
-#zone-header-image-wrapper {
-	height: 650px;
+#section-content {margin-top: -130px;}
+.not-front #section-content {margin-top:-100px;}
+
+
+#zone-header-image-wrapper #zone-header-image {
+    min-height: 640px;
 }
 
 #zone-menu-wrapper {
@@ -20,4 +25,12 @@
 
 	margin-left:40px;
 	font-size:20px;
+}
+
+#zone-product-wrapper .block-bean-product-2 .field-name-field-body {min-height:382px !important;
+}
+
+p.lead {
+	margin-left:auto;
+	margin-right: auto;
 }
