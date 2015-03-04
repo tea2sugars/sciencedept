@@ -171,7 +171,7 @@ header#section-header {
 	font-size: 14px;
 	line-height: 1.42857;
 	margin: 0 10px 20px 10px;
-	text-align: left;
+	text-align: center;
 	min-height:500px;	
 }
 
@@ -197,6 +197,9 @@ header#section-header {
 /*Merge here*/
 #zone-product-wrapper .block .field-name-field-body {
 	min-height:260px;
+	text-align: left;
+	margin-left:10px;
+	margin-right:10px;
 }
 
 
