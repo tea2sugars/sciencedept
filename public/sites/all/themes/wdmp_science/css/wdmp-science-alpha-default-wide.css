@@ -27,3 +27,8 @@
 
 #zone-product-wrapper .block-bean-product-2 .field-name-field-body {min-height:382px !important;
 }
+
+p.lead {
+	margin-left:auto;
+	margin-right: auto;
+}

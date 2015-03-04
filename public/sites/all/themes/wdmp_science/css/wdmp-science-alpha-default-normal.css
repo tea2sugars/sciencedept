@@ -19,6 +19,11 @@ h3.lead {
 	margin-bottom: 20px;
 }
 
+p.lead {
+	margin-left:auto;
+	margin-right: auto;
+}
+
 #section-content {margin-top: -110px;}
 
  
