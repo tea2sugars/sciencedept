@@ -117,6 +117,7 @@ header#section-header {
 }
 
 #section-content {margin-top: -60px;}
+.not-front #section-content {margin-top:-30px;}
 
 #zone-menu-wrapper {
 	background: white;

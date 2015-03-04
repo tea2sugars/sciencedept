@@ -10,6 +10,8 @@
 }
 
 #section-content {margin-top: -130px;}
+.not-front #section-content {margin-top:-100px;}
+
 
 #zone-header-image-wrapper #zone-header-image {
     min-height: 640px;

@@ -25,6 +25,8 @@ p.lead {
 }
 
 #section-content {margin-top: -110px;}
+.not-front #section-content {margin-top:-80px;}
+
 
  
  #zone-branding .logo-img {

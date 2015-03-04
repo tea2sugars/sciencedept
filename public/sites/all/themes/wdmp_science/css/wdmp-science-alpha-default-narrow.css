@@ -82,6 +82,8 @@ padding-top: 0px;
 
 
 #section-content {margin-top: -90px;}
+.not-front #section-content {margin-top:-60px;}
+
 
 
 #zone-product-wrapper .block p {
