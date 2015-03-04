@@ -152,9 +152,9 @@ header#section-header {
 	padding:20px 10%;
 }
 
-/*.intro-copy-block-1 {
+.intro-copy-block-1 {
 	margin-bottom: 160px;
-	}*/
+	}
 .intro-copy-block h1 {
 	font-size:18px;
 	line-height: 1;
@@ -167,12 +167,11 @@ header#section-header {
 	text-align: 		center;
 }
 
-#zone-product-wrapper .block {
+#zone-product-wrapper .block p {
 	font-size: 14px;
 	line-height: 1.42857;
 	margin: 0 10px 20px 10px;
-	text-align: center;
-	min-height:500px;	
+	text-align: left;	
 }
 
 #zone-product-wrapper .block img {
@@ -194,14 +193,9 @@ header#section-header {
 	text-align: center;
 }
 
-/*Merge here*/
 #zone-product-wrapper .block .field-name-field-body {
 	min-height:260px;
-	text-align: left;
-	margin-left:10px;
-	margin-right:10px;
 }
-
 
 #zone-full-width-title-first-wrapper {
 	background:url(../img/data-title-mobile.png) repeat-x;
@@ -457,5 +451,7 @@ input[type="submit"]:hover {
 }
 
 .responsive-img, .bean-image img {height:auto; width: 100%;}
+
+.block-teal-arrow .field-item {width:90px; height:90px; margin:-30px auto 0 auto;}
 
 .circle {width:60px; height:60px; margin-left:auto; margin-right:auto;}
